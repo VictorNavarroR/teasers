@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ccc;
+}
+h1 {
+    color: rgb(66, 66, 66);
+}
+.teasers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 15px;
+}
+.teasers div {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1)
+}
+.teasers div h5 {
+    text-align: center
+}
+.teasers-noschool {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+.teasers-noschool span {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(104, 163, 16);
+    padding-left: 15px;
+}
+.date {
+    color: green;
+    font-size: .8rem;
+    text-align: center;
+}
+.date span {
+    display: block;
+    color:rgb(48, 48, 48);
+    font-size: .9rem;
+}
